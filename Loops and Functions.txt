@@ -1,11 +1,7 @@
-// 1. Create a variable to hold your NFTs (array of objects)
+
 let NFTCollection = [];
 
-// 2. This function will take in some values as parameters, create an
-// NFT object using the parameters passed to it for its metadata, 
-// and store it in the nftCollection array.
 function mintNFT(name, artist, description, yearCreated) {
-    // Create an NFT object with the metadata
     let nft = {
         name: name,
         artist: artist,
@@ -13,13 +9,10 @@ function mintNFT(name, artist, description, yearCreated) {
         yearCreated: yearCreated
     };
     
-    // Store the NFT object in the collection
     NFTCollection.push(nft);
     console.log(`Minted NFT: ${name}`);
 }
 
-// 3. Create a "loop" that will go through an array of NFTs
-// and print their metadata with console.log()
 function listNFTs() {
     NFTCollection.forEach((nft, index) => {
         console.log('\n');
@@ -32,13 +25,10 @@ function listNFTs() {
     });
 }
 
-
-// 4. Print the total number of NFTs we have minted to the console
 function getTotalSupply() {
     console.log(`Total NFTs minted: ${NFTCollection.length}`);
 }
 
-// Call the functions below
 mintNFT("Golden Sunset", "Alice", "A stunning golden sunset over the mountains.", 2023);
 mintNFT("Abstract Waves", "Bob", "A collection of abstract waves in blue and white.", 2022);
 mintNFT("City Lights", "Charlie", "A bustling city lit up at night.", 2024);
