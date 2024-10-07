@@ -29,9 +29,9 @@ function getTotalSupply() {
     console.log(`Total NFTs minted: ${NFTCollection.length}`);
 }
 
-mintNFT("Golden Sunset", "Alice", "A stunning golden sunset over the mountains.", 2023);
-mintNFT("Abstract Waves", "Bob", "A collection of abstract waves in blue and white.", 2022);
-mintNFT("City Lights", "Charlie", "A bustling city lit up at night.", 2024);
+mintNFT("Bangus Festival", "Belen", "A Bangus Festival held in Dagupan to celebrate their culture.", 2023);
+mintNFT("Pinoy Rap", "Shanti Dope", "A hit collections of Filipino Rapper.", 2022);
+mintNFT("Fireworks", "Russel", "A colorful and outstanding play to light up the sky.", 2024);
 
 listNFTs();
 getTotalSupply();
