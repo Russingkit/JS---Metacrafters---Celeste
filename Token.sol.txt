@@ -1,0 +1,25 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.18;
+
+contract MyToken {
+
+    // Public variables to store token details
+    string public tokenName = "Hamster"; // Name of the token
+    string public tokenAbbrv = "Hmstr";    // Abbreviation of the token
+    uint public totalSupply = 0;         // Total supply of the token
+   // Mapping to track balances of addresses
+    mapping(address => uint) public balances;
+
+    // Mint function to increase total supply and balance of the address
+    function mint(address _to, uint _value) public {
+        totalSupply += _value;           // Increase total supply
+        balances[_to] += _value;         // Increase balance of the specified address
+    }
+
+    // Burn function to decrease total supply and balance of the address
+    function burn(address _from, uint _value) public {
+        require(balances[_from] >= _value, "Insufficient balance to burn");  // Ensure the address has enough tokens to burn
+        totalSupply -= _value;           // Decrease total supply
+        balances[_from] -= _value;       // Decrease balance of the specified address
+    }
+}
