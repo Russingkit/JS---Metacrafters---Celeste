@@ -1,9 +1,9 @@
 let NFTCollection = [];
-let transactionCounter = 1; // To simulate transaction IDs
+let transactionCounter = 1;
 
 function mintNFT(name, artist, description, yearCreated, location) {
     let nft = {
-        transactionID: transactionCounter++, // Assign a unique transaction ID
+        transactionID: transactionCounter++,
         name: name,
         artist: artist,
         description: description,
@@ -33,9 +33,9 @@ function getTotalSupply() {
     console.log(`Total NFTs minted: ${NFTCollection.length}`);
 }
 
+
 function findNFTByTransactionID(id) {
-    let nft = NFTCollection.find(nft => nft.transactionID === id);
-    
+    let nft = NFTCollection.find(nft => nft.transactionID === id);   
     if (nft) {
         console.log('\n');
         console.log(`Transaction ID: ${nft.transactionID}`);
@@ -56,5 +56,4 @@ mintNFT("Fireworks", "Russel", "A colorful and outstanding play to light up the 
 
 listNFTs();
 getTotalSupply();
-
 findNFTByTransactionID(2);
