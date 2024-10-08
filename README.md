@@ -65,7 +65,7 @@ This code defines a system for minting NFTs with key attributes like the name, a
 ### Installation
 
 1. Clone or download this repository to your local machine.
-2. Open the `index.js` (or equivalent) file and execute the JavaScript code using your preferred runtime.
+2. Open the `https://github.com/Russingkit/JS---Metacrafters---Celeste/blob/main/JS%20NFT.js` (or equivalent) file and execute the JavaScript code using your preferred runtime.
 
 ### Example Run
 
