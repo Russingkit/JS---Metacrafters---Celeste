@@ -29,8 +29,7 @@ This Solidity smart contract defines a token called **"CATIZEN"** with the symbo
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* You can my file at Github link:
 
 ### Executing program
 
