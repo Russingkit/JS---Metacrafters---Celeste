@@ -1,7 +1,7 @@
 pragma solidity ^0.8.18;
 
 contract MyToken {
-    string public tokenName = "Catizen";
+    string public tokenName = "CATIZEN";
     string public tokenAbbrv = "$Cati";
     uint public totalSupply = 0;
 
