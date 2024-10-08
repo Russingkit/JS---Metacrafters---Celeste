@@ -1,7 +1,3 @@
-Here is a draft of your `README` file based on the JavaScript NFT minting code you shared:
-
----
-
 # NFT Collection Minting
 
 This project is a simple NFT (Non-Fungible Token) minting system using JavaScript. It allows the creation, listing, and searching of NFTs, providing a basic foundation for exploring NFT-related concepts.
