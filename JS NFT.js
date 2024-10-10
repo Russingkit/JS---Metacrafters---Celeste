@@ -57,7 +57,9 @@ mintNFT("Bangus Festival", "Belen", "A Bangus Festival held in the City Dagupan 
 mintNFT("Pinoy Rap", "Shanti Dope", "A hit collections of Filipino Rapper.", 2022 , "Manila");
 mintNFT("Fireworks", "Russel", "A colorful and outstanding play to light up the sky.", 2024 ,"Bolinao");
 
+// List of NFT's
 listNFTs();
+// Display Total of Supply
 getTotalSupply();
 
 // Search for NFT by Transaction ID
